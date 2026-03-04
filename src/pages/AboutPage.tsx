@@ -24,14 +24,6 @@ const AboutPage = () => {
           >
             <BearIcon size={65} />
           </motion.div>
-          <motion.div
-            className="absolute bottom-8 left-1/4 opacity-10 hidden lg:block"
-            animate={{ y: [0, -4, 0] }}
-            transition={{ duration: 3.5, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
-          >
-            <FoxIcon size={55} />
-          </motion.div>
-
           <div className="container mx-auto px-4 text-center relative z-10">
             <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
               <p className="text-sm font-sans font-semibold uppercase tracking-widest text-accent mb-3">About</p>

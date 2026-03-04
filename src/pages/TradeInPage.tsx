@@ -46,13 +46,6 @@ const TradeInPage = () => {
           >
             <FoxIcon size={65} />
           </motion.div>
-          <motion.div
-            className="absolute bottom-6 right-1/3 opacity-10 hidden lg:block"
-            animate={{ y: [0, -4, 0] }}
-            transition={{ duration: 3.5, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
-          >
-            <DuckIcon size={55} />
-          </motion.div>
 
           <div className="container mx-auto px-4 text-center relative z-10">
             <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
