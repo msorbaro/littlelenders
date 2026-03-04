@@ -33,25 +33,18 @@ const TradeInPage = () => {
         {/* Hero */}
         <section className="py-20 bg-card relative overflow-hidden">
           <motion.div
-            className="absolute top-6 left-10 opacity-12 hidden lg:block"
+            className="absolute top-14 left-10 opacity-12 hidden lg:block"
             animate={{ y: [0, -6, 0], rotate: [0, 4, 0] }}
             transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
           >
             <BunnyIcon size={70} />
           </motion.div>
           <motion.div
-            className="absolute top-10 right-10 opacity-12 hidden lg:block"
+            className="absolute top-14 right-10 opacity-12 hidden lg:block"
             animate={{ y: [0, -5, 0], rotate: [0, -4, 0] }}
             transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
           >
             <FoxIcon size={65} />
-          </motion.div>
-          <motion.div
-            className="absolute bottom-6 right-1/3 opacity-10 hidden lg:block"
-            animate={{ y: [0, -4, 0] }}
-            transition={{ duration: 3.5, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
-          >
-            <DuckIcon size={55} />
           </motion.div>
 
           <div className="container mx-auto px-4 text-center relative z-10">
